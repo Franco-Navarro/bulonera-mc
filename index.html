@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Bulonera MC | Home</title>
+    <link rel="icon" href="img/icon.ico">
+    <!--Metas-->
+    <!--Responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="ferreteria, bulonera, bulonera mc, trujui, san miguel, ">
+    <meta name="description"
+        content="Bulonera MC, ferreteria con sucursales en el Cruce Castelar y San Miguel. Pagina principal">
+    <meta name="author" content="Franco Navarro">
+    <meta name="robots" content="index">
+    <!--styles-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header" id="home">
+        <div class="header__logo">
+            <a href="#home"><img class="header__logo-img" src="img/logoforweb.jpg" alt=""></a>
+        </div>
+        <div class="header__nav-container">
+            <nav class="header__nav">
+                <ul class="header__nav-ul">
+                    <li class="header__nav-li"><a href="#product">Nuestros productos</a></li>
+                    <li class="header__nav-li"><a href="#branch">Sucursales</a></li>
+                    <li class="header__nav-li"><a href="#contact">Contactanos</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <article class="article">
+        <div class="article__container">
+            <div class="article__banner">
+                <img src="img/herramientas/Banner/banner.jpg" alt="">
+            </div>
+            <div class="article__product">
+                <h1 class="article__product-h1" id="product">Nuestros productos</h1>
+                <div class="article__product-card">
+                    <a href="productos/electricas.html">HERRAMIENTAS ELECTRICAS</a>
+                    <a href="productos/electricas.html"><img src="img/herramientas/Banner/herramienta.jpg" alt=""></a>
+                </div>
+                <div class="article__product-card">
+                    <a href="productos/hogar.html">HERRAMIENTAS PARA EL HOGAR</a>
+                    <a href="productos/hogar.html"><img src="img/herramientas/Banner/hogar.jpg" alt=""></a>
+                </div>
+                <div class="article__product-card">
+                    <a href="productos/maquinas.html">MAQUINAS PARA EL TALLER</a>
+                    <a href="productos/maquinas.html"><img src="img/herramientas/Banner/taller.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="article__branch">
+                <h2 class="article__branch-h2" id="branch">Nuestras sucursales</h2>
+                <div class="article__branch-card">
+                    <div class="article__branch-map">
+                        <a href="https://www.google.com/maps/place/Bulonera+MC/@-34.584494,-58.748341,19z/data=!4m5!3m4!1s0x0:0xa9c4039e2c939f64!8m2!3d-34.5845667!4d-58.7483167?hl=es-AR"
+                            target="_BLANK"><img src="img/maps cruce.jpg" alt=""></a>
+                        <a href="https://www.google.com/maps/place/Bulonera+MC/@-34.584494,-58.748341,19z/data=!4m5!3m4!1s0x0:0xa9c4039e2c939f64!8m2!3d-34.5845667!4d-58.7483167?hl=es-AR"
+                            target="_BLANK">Bulonera MC <br>Av. del Libertador 7523, Trujui</a>
+                    </div>
+                </div>
+                <div class="article__branch-card">
+                    <div class="article__branch-map">
+                        <a href="https://www.google.com/maps/place/Ferreter%C3%ADa+Signar+San+Miguel/@-34.5671999,-58.7407372,17.75z/data=!4m12!1m6!3m5!1s0x0:0xa9c4039e2c939f64!2sBulonera+MC!8m2!3d-34.5845667!4d-58.7483167!3m4!1s0x0:0x8e417d42a4723d4d!8m2!3d-34.5682708!4d-58.7417324?hl=es-AR"
+                            target="_BLANK"><img src="img/maps san miguel.jpg" alt=""></a>
+                        <a href="https://www.google.com/maps/place/Ferreter%C3%ADa+Signar+San+Miguel/@-34.5671999,-58.7407372,17.75z/data=!4m12!1m6!3m5!1s0x0:0xa9c4039e2c939f64!2sBulonera+MC!8m2!3d-34.5845667!4d-58.7483167!3m4!1s0x0:0x8e417d42a4723d4d!8m2!3d-34.5682708!4d-58.7417324?hl=es-AR"
+                            target="_BLANK">Ferreteria Signa <br> Av. Dr. Ricardo Balbín 4609, San Miguel </a>
+                    </div>
+                </div>
+            </div>
+            <div class="article__contact">
+                <h2 class="article__contact-h2" id="contact">Contactanos</h2>
+                <form class="article__contact-form" id="contact__form" action="enviarcorreo.php"
+                    name="contactform">
+                    <input type="text" placeholder="Ingrese su Nombre" name="name" id="nombre"
+                        class="article__contact-input">
+                    <input type="email" placeholder="Ingrese su Email" name="_replyto" id="correo"
+                        class="article__contact-input">
+                    <textarea class="article__contact-text" name="consult" id="comentarios" cols="30" rows="10"
+                        placeholder="Ingrese su consulta"></textarea>
+                        <button type="button" name="enviar" class="article__contact-button" onclick="javascript:enviar_correo();">Enviar correo</button>
+                    <input type="submit" class="article__contact-button" name="enviar"
+                        onclick="javascript:enviar_correo();">
+                </form>
+                <div class="article__contact-phone">
+                    <div class="article__contact-div">
+                        <i class="fab fa-whatsapp-square"></i>
+                        <p>Whatsapp: 11 5507-8047</p>
+                    </div>
+                    <div class="article__contact-div">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <p>Ferreteria Signa San Miguel: 011 4465-8519</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer class="footer">
+        <div class="footer__copyright">
+            <p>Copyright Bulonera MC</p>
+            <p>Desarrollado por Navarro Franco<i class="fas fa-copyright"></i></p>
+        </div>
+    </footer>
+</body>
+<script src="jquery-2.1.3.js"></script>
+
+<script>
+    function enviar_correo() {
+        var correo = new FormData();
+
+        correo.append("nombre", document.getElementById("nombre").value);
+        correo.append("correo", document.getElementById("correo").value);
+        correo.append("comentarios", document.getElementById("comentarios").value);
+
+        $.ajax({
+            url: "enviarcorreo.php",
+            type: "POST",
+            data: correo,
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function (resp) {
+                console.log(resp);
+                msj = JSON.parse(resp);
+                alert(msj.mensaje);
+            }
+        });
+
+    }
+</script>
+
+</html>
